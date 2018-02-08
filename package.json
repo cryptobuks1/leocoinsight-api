@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Leocoin-project/leocoinsight-api.git"
+    "url": "https://github.com/newmight2015/leocoinsight-api.git"
   },
   "contributors": [
     {
@@ -37,9 +37,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/Leocoin-project/leocoinsight-api/issues"
+    "url": "https://github.com/newmight2015/leocoinsight-api/issues"
   },
-  "homepage": "https://github.com/Leocoin-project/leocoinsight-api",
+  "homepage": "https://github.com/newmight2015/leocoinsight-api",
   "license": "MIT",
   "keywords": [
     "LEOcoin",
@@ -69,7 +69,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "bitcore": "https://github.com/Leocoin-project/leocoincore.git",
+    "bitcore": "https://github.com/newmight2015/leocoincore.git",
     "bufferput": "https://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
