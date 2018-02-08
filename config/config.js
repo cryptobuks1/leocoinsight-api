@@ -24,9 +24,9 @@ var home = process.env.INSIGHT_DB || (getUserHome() + '/.LEOcoinsight');
 if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
-  port = '3030';
-  b_port = '5211';
-  p2p_port = '5840';
+  port = '80';
+  b_port = '8877';
+  p2p_port = '8878';
 } else {
   env = 'testnet';
   db = home + '/testnet';
@@ -57,9 +57,9 @@ var isWin = /^win/.test(process.platform);
 var isMac = /^darwin/.test(process.platform);
 var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
-  if (isWin) dataDir = '%APPDATA%\\LEOcoinV3\\';
-  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/LEOcoinV3/';
-  if (isLinux) dataDir = process.env.HOME + '/.LEOcoinV3/';
+  if (isWin) dataDir = '%APPDATA%\\QQCode\\';
+  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/QQCode/';
+  if (isLinux) dataDir = process.env.HOME + '/.QQCode/';
 }
 dataDir += network === 'testnet' ? 'testnet3' : '';
 
